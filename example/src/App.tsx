@@ -24,7 +24,7 @@ export default function App() {
         }}
         locale="en"
         translations={{
-          todayButtonText: 'Í dag',
+          todayButtonText: 'Today',
         }}
       >
         <View>

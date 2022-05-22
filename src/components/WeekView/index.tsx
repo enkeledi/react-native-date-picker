@@ -43,7 +43,7 @@ const WeekView: React.FC<
         isSameDay(date, d.date)
       );
       let indexToScrollTo = indexOfSelectedDate;
-      const indexOfFirstDateInWeek = indexOfSelectedDate - getDay(date) + 1; // 1 because starting at Mondays
+      const indexOfFirstDateInWeek = indexOfSelectedDate - getDay(date);
 
       if (indexOfFirstDateInWeek <= 6) {
         // User is scrolling Today when in current week

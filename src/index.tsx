@@ -82,7 +82,7 @@ export const DatePickerComponent: React.FC<DatePickerProps> = ({
   const dates = React.useMemo(() => {
     return generateDateRange({
       startDate: startOfWeek(minDate, {
-        weekStartsOn: 1, // Monday
+        weekStartsOn: 0, // Sunday
       }),
       endDate: maxDate,
       disabledDates,
@@ -272,10 +272,10 @@ export const DatePickerComponent: React.FC<DatePickerProps> = ({
             >
               {generateDateRange({
                 startDate: startOfWeek(new Date(), {
-                  weekStartsOn: 1, // Monday
+                  weekStartsOn: 0, // Sunday
                 }),
                 endDate: endOfWeek(new Date(), {
-                  weekStartsOn: 1,
+                  weekStartsOn: 0, // Sunday
                 }),
                 allowsPastDates: true,
                 disabledDates: [],
