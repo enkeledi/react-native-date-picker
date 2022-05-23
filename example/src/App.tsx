@@ -1,7 +1,7 @@
 import { addDays } from 'date-fns';
 import * as React from 'react';
 import { SafeAreaView, Text, View } from 'react-native';
-import { DatePicker } from '@enkeledi/react-native-week-month-date-picker';
+import { DatePicker } from '../../src/index';
 
 export default function App() {
   const minDate = new Date();

@@ -126,15 +126,15 @@ const MonthViewRaw: React.FC<
           const firstDayOfMonthAsWeekDay = getDay(datesInMonth[0].date); // 0 Sunday, 1 Monday, ... 6 Saturday
           let initialLeftMargin = Math.floor(
             (Dimensions.get('window').width / 7) *
-              (firstDayOfMonthAsWeekDay - 1)
+              (firstDayOfMonthAsWeekDay)
           );
 
-          if (firstDayOfMonthAsWeekDay === 0) {
-            // If the first day of the month is Sunday, we must treat it as "7"..
-            initialLeftMargin = Math.floor(
-              (Dimensions.get('window').width / 7) * 6
-            );
-          }
+          // if (firstDayOfMonthAsWeekDay === 0) {
+          //   // If the first day of the month is Sunday, we must treat it as "7"..
+          //   initialLeftMargin = Math.floor(
+          //     (Dimensions.get('window').width / 7) * 6
+          //   );
+          // }
 
           const MONTH_VIEW_ITEM_WIDTH = Math.floor(ITEM_WIDTH);
 
