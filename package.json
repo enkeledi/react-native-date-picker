@@ -1,5 +1,5 @@
 {
-  "name": "@enkeledi/react-native-date-picker",
+  "name": "@enkeledi/react-native-week-month-date-picker",
   "version": "0.0.1",
   "description": "Date picker with a week and month view",
   "main": "lib/commonjs/index",
@@ -38,14 +38,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enkeledi/react-native-date-picker.git"
+    "url": "git+https://github.com/enkeledi/react-native-week-month-date-picker.git"
   },
   "author": "Enkeledi Todolli <etodolli@gmail.com> (https://github.com/enkeledi)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/enkeledi/react-native-date-picker/issues"
+    "url": "https://github.com/enkeledi/react-native-week-month-date-picker/issues"
   },
-  "homepage": "https://github.com/enkeledi/react-native-date-picker#readme",
+  "homepage": "https://github.com/enkeledi/react-native-week-month-date-picker#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
