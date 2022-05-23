@@ -2,7 +2,7 @@ import { getDay, isSameDay } from 'date-fns';
 import React from 'react';
 import { FlatList, ViewProps } from 'react-native';
 import Animated from 'react-native-reanimated';
-import type { Dates } from 'react-native-week-month-date-picker';
+import type { Dates } from '../../index';
 import type { DatePickerProps } from '../..';
 import DatePickerItem, { DatePickerItemProps } from '../DatePickerItem';
 import { ITEM_WIDTH_WITHOUT_MARGINS } from '../DatePickerItem/styles';

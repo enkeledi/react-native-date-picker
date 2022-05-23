@@ -1,7 +1,7 @@
 import { format, isToday as isTodayFNS } from 'date-fns';
 import React from 'react';
 import { Text, TouchableOpacity, View, ViewProps } from 'react-native';
-import { ThemeContext } from 'react-native-week-month-date-picker';
+import { ThemeContext } from '../../index';
 import styles, { ITEM_WIDTH } from './styles';
 
 export type DatePickerItemProps = {
