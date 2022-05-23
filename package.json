@@ -1,6 +1,6 @@
 {
-  "name": "react-native-week-month-date-picker",
-  "version": "0.3.0",
+  "name": "react-native-date-picker",
+  "version": "0.0.1",
   "description": "Date picker with a week and month view",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
