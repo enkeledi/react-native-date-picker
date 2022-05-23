@@ -6,7 +6,7 @@ import {
   TouchableOpacityProps,
   View,
 } from 'react-native';
-import { ThemeContext } from 'react-native-week-month-date-picker';
+import { ThemeContext } from '../index';
 
 interface TextButtonProps extends TouchableOpacityProps {
   title: string;
